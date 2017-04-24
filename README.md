@@ -1,6 +1,6 @@
 # IAPHelper
 
-[![CI Status](http://img.shields.io/travis/vikas4goyal@gmail.com/IAPHelper.svg?style=flat)](https://travis-ci.org/vikas4goyal@gmail.com/IAPHelper)
+[![CI Status](http://img.shields.io/travis/vikas4goyal@gmail.com/IAPHelper.svg?style=flat)](https://travis-ci.org/vikas4goyal/IAPHelper)
 [![Version](https://img.shields.io/cocoapods/v/IAPHelper.svg?style=flat)](http://cocoapods.org/pods/IAPHelper)
 [![License](https://img.shields.io/cocoapods/l/IAPHelper.svg?style=flat)](http://cocoapods.org/pods/IAPHelper)
 [![Platform](https://img.shields.io/cocoapods/p/IAPHelper.svg?style=flat)](http://cocoapods.org/pods/IAPHelper)
