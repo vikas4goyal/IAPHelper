@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IAPHelper'
   s.version          = '0.1.0'
-  s.summary          = 'IAPHelper is In-App purchage Helper'
+  s.summary          = 'IAPHelper is In-App purchage Helper.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
