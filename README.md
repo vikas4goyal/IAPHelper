@@ -22,7 +22,7 @@ pod "IAPHelper"
 
 ## Author
 
-vikas4goyal@gmail.com, vikas.goyal@webvirtue.com
+vikas goyal
 
 ## License
 
