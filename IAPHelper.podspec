@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 IPAHelper is INAPP PURCHASE Helper for IOS
                        DESC
 
-  s.homepage         = 'https://github.com/vikas4goyal.com/IAPHelper'
+  s.homepage         = 'https://github.com/vikas4goyal/IAPHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vikas goyal' => 'vikas4goyal@gmail.com' }
   s.source           = { :git => 'https://github.com/vikas4goyal/IAPHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'IAPHelper/Classes/**/*'
   
