@@ -1,0 +1,34 @@
+{
+  "name": "IAPHelper",
+  "version": "0.1.1",
+  "summary": "IAPHelper is In-App purchage Helper",
+  "description": "IPAHelper is INAPP PURCHASE Helper for IOS",
+  "homepage": "https://github.com/vikas4goyal.com/IAPHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vikas goyal": "vikas4goyal@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vikas4goyal/IAPHelper.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "IAPHelper/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "StoreKit"
+  ],
+  "dependencies": {
+    "SwiftyStoreKit": [
+      "0.8.6"
+    ],
+    "PopupDialog": [
+      "0.5.4"
+    ]
+  }
+}

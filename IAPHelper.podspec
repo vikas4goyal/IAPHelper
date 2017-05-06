@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IAPHelper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'IAPHelper is In-App purchage Helper'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ IPAHelper is INAPP PURCHASE Helper for IOS
   s.source           = { :git => 'https://github.com/vikas4goyal/IAPHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'IAPHelper/Classes/**/*'
   
@@ -38,6 +38,6 @@ IPAHelper is INAPP PURCHASE Helper for IOS
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit','StoreKit'
-    s.dependency 'SwiftyStoreKit','0.8.4'
+    s.dependency 'SwiftyStoreKit','0.8.6'
     s.dependency 'PopupDialog','0.5.4'
 end

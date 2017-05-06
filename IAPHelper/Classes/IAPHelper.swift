@@ -115,6 +115,8 @@ public class IAPHelper: NSObject {
                 codeStr = "cloud Service Permission Denied"
             case .cloudServiceNetworkConnectionFailed:
                 codeStr = "Cloud Service Network Connection Failed"
+            case .cloudServiceRevoked:
+                codeStr = "Cloud Service permission revoked"
             }
             attribute?["My Error"] = codeStr;
             return;
@@ -237,6 +239,8 @@ public class IAPHelper: NSObject {
                 callBack("Access to cloud service information is not allowed",error,nil);
                 case .cloudServiceNetworkConnectionFailed: print("Could not connect to the network")
                 callBack("Could not connect to the network",error,nil);
+                case .cloudServiceRevoked:
+                    callBack("Cloud Service permission revoked",error,nil);
                 }
             }
         }
@@ -245,7 +249,14 @@ public class IAPHelper: NSObject {
 
 
 extension UserDefaults{
-    static let iap_key = "\(Bundle.main.bundleIdentifier).iap"
+    static let iap_key = "\(try! getIdentifier()).iap"
+    
+    class func getIdentifier() throws ->String{
+        guard let identifier = Bundle.main.bundleIdentifier else{
+            throw NSError(domain: "com.ghs", code: 404, userInfo: [NSLocalizedDescriptionKey:"bundle identifier is nil"])
+        }
+        return identifier
+    }
     
     static func setPayments(values:[String:Int]){
         let ud = UserDefaults.standard;
