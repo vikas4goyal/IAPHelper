@@ -38,6 +38,6 @@ IPAHelper is INAPP PURCHASE Helper for IOS
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit','StoreKit'
-    s.dependency 'SwiftyStoreKit','0.9.2'
+    s.dependency 'SwiftyStoreKit'
     s.dependency 'PopupDialog','0.5.4'
 end
