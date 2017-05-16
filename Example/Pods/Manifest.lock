@@ -1,0 +1,22 @@
+PODS:
+  - IAPHelper (0.1.1):
+    - PopupDialog (= 0.5.4)
+    - SwiftyStoreKit (= 0.8.6)
+  - PopupDialog (0.5.4)
+  - SwiftyStoreKit (0.8.6)
+
+DEPENDENCIES:
+  - IAPHelper (from `../`)
+
+EXTERNAL SOURCES:
+  IAPHelper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IAPHelper: 5b96463f164dbc4504b0cc2b898cd7ce4eb43bca
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+  SwiftyStoreKit: 3cd98b53dc4ab9fd33c1023a8eae38225ebae312
+
+PODFILE CHECKSUM: 1662881dea8ae22b3c43f3544893488b8a68f1b1
+
+COCOAPODS: 1.2.1

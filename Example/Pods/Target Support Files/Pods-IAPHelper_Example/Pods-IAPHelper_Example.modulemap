@@ -1,0 +1,6 @@
+framework module Pods_IAPHelper_Example {
+  umbrella header "Pods-IAPHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
